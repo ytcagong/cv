@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <p>Number: 917317</p>
+    <p>Email: ytc@gmail</p>
+
+    <form action="mailto:ytc@gmail" method="post" enctype="text/plain"> <!--action: what will happen when you click submit//
+    could go back to homepage index.html or use mailto and the input will be emailed to-->
+        <label for="">Your Name:</label>
+        <input type="text" name="yourName">
+        <br>
+        <label for="">Date of Birth:</label>
+        <input type="date" name="dateOfBirth">
+        <br>
+        <label for="">Do you want to sign up for ads?</label>
+        <input type="checkbox">
+        <br>
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail">
+        <label for="">Password:</label>
+        <input type="password" name="yourPassword">
+        <br>
+        <label for="">Your message:</label>
+        <textarea name="yourMessage" id="" cols="30" rows="5"></textarea>
+        <!-- rows determine height or how tall, col determine how wide-->
+        <input type="submit">
+    </form>
+</body>
+</html>
